@@ -13,7 +13,9 @@ public class ApplicationStarter {
         String stringOne = "767676";
         String stringTwo = "767676";
         System.out.println("for string '" + stringOne + "' stringOne.hashCode() = " + stringOne.hashCode());
-        System.out.println("stringTwo.hashCode() = " + stringTwo.hashCode());
+        System.out.println("for string '" + stringTwo + "' stringTwo.hashCode() = " + stringTwo.hashCode());
+        stringTwo = "AAAAAAAAAA";
+        System.out.println("for string '" + stringTwo + "' stringTwo.hashCode() = " + stringTwo.hashCode());
         System.out.println("After stringOne = stringTwo: stringTwo.equals(stringTwo) = " + stringTwo.equals(stringOne));
         stringOne = stringTwo;
         System.out.println("After stringOne = stringTwo: stringOne.hashCode() = " + stringOne.hashCode());
