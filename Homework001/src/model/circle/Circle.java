@@ -1,4 +1,4 @@
-package com.mainacad.circle;
+package model.circle;
 
 import com.mainacad.abs.AbstractShape;
 
@@ -11,6 +11,13 @@ public class Circle extends AbstractShape {
 
     public void setRadius(double radius) {
         this.radius = radius;
+    }
+
+    public Circle(double radius) {
+        this.radius = radius;
+    }
+
+    public Circle() {
     }
 
     @Override

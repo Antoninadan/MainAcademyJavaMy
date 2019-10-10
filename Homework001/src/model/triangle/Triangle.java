@@ -1,4 +1,4 @@
-package com.mainacad.triangle;
+package model.triangle;
 
 import com.mainacad.abs.AbstractShape;
 import com.mainacad.abs.Shape;
@@ -30,6 +30,15 @@ public class Triangle extends AbstractShape {
 
     public void setSideThree(double sideThree) {
         this.sideThree = sideThree;
+    }
+
+    public Triangle(double sideOne, double sideTwo, double sideThree) {
+        this.sideOne = sideOne;
+        this.sideTwo = sideTwo;
+        this.sideThree = sideThree;
+    }
+
+    public Triangle() {
     }
 
     @Override

@@ -1,4 +1,4 @@
-package com.mainacad.square;
+package model.square;
 
 import com.mainacad.abs.AbstractShape;
 
@@ -11,6 +11,13 @@ public class Square extends AbstractShape {
 
     public void setSide(double side) {
         this.side = side;
+    }
+
+    public Square(double side) {
+        this.side = side;
+    }
+
+    public Square() {
     }
 
     @Override
