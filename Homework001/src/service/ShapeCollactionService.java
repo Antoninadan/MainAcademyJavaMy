@@ -1,13 +1,12 @@
 package service;
 
-import java.util.ArrayList;
+import java.util.Collection;
 import java.util.Iterator;
-import java.util.List;
 
 import com.mainacad.abs.Shape;
 
 public class ShapeCollactionService {
-    public static Double getMinShapeArea(List<Shape> shapeList){
+    public static Double getMinShapeArea(Collection<Shape> shapeList){
         if ((shapeList == null) || (shapeList.isEmpty())){
             return null;
         }
@@ -23,7 +22,7 @@ public class ShapeCollactionService {
         return min;
     }
 
-    public static Double getMaxShapeArea(List<Shape> shapeList){
+    public static Double getMaxShapeArea(Collection<Shape> shapeList){
         if ((shapeList == null) || (shapeList.isEmpty())){
             return null;
         }
