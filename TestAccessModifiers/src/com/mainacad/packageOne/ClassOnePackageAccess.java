@@ -1,5 +1,5 @@
 package com.mainacad.packageOne;
 
-class ClassOne {
+class ClassOnePackageAccess {
 
 }

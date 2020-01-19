@@ -1,6 +1,6 @@
-package com.mainacad.packageTwo;
+package com.mainacad.packageFour;
 
-public class ClassTwo {
+public class ClassTwoPackageFour {
     int fieldDafaultClassTwo = 88;
     public int fieldPublicClassTwo;
     private int fieldPrivateClassTwo;
@@ -10,6 +10,4 @@ public class ClassTwo {
     public int methodPublicClassTwo() {return 0;};
     private int methodPrivateClassTwo() {return 0;};
     protected int methodProtectedClassTwo() {return 0;};
-
-
 }
